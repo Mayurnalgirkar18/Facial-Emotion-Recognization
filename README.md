@@ -46,7 +46,7 @@ Each image represents a human face labeled with an emotion such as:
 * Softmax output layer for emotion prediction
 * The architecture balances performance and computational efficiency, making it suitable for both local GPU and cloud environments.
 
-⚙️ Project Pipeline
+# Project Pipeline
 
 * Data loading from directory structure
 * Image preprocessing & normalization
@@ -57,7 +57,8 @@ Each image represents a human face labeled with an emotion such as:
 * Visualization of results
 * Model saving (.h5 format)
 
-📊 Results & Evaluation
+# Results & Evaluation
+
 * Training and validation accuracy tracked across epochs
 * Model evaluated using:
 * Confusion Matrix
@@ -65,7 +66,7 @@ Each image represents a human face labeled with an emotion such as:
 * Helps identify class-wise strengths and weaknesses
 * The evaluation demonstrates understanding beyond accuracy, focusing on real-world model behavior.
 
-🛠 Tech Stack
+# Tech Stack
 * Python
 * TensorFlow / Keras
 * NumPy
